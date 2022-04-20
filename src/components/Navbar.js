@@ -84,7 +84,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/MaxMohammadi/React-Portfolio"
+                href="https://github.com/sebas1017/portafolio_proyectos"
                 target="_blank"
                 className="fork-btn-inner"
               >
