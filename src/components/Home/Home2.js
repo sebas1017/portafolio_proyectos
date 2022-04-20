@@ -4,13 +4,13 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaMedium } from "react-icons/fa";
-import { TiVendorApple } from "react-icons/ti";
+import { FaLinkedinIn, FaYoutube, FaPython, FaDocker , FaLinux} from "react-icons/fa";
+import { TiCoffee } from "react-icons/ti";
+import { SiJavascript , SiFlask, SiPostgresql,SiDjango, SiGnubash,SiGit} from "react-icons/si";
 import Button from "react-bootstrap/Button";
 import "../../style.css";
-import PDF from "../../Max_Mohammadi_Resume_Blockchain.pdf";
+import PDF from "../../RESUME_CV.pdf";
 
 function Home2() {
   return (
@@ -19,33 +19,30 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              Permiteme <span className="purple"> Presentarme </span>
             </h1>
             <p className="home-about-body">
-            <TiVendorApple />  I started programming at a young age when I had the desire to make text message spam bots as well as phone number spoofing systems
+            <TiCoffee /> Desarrollador de software en Python, con experiencia en frameworks como Flask, Django , también tengo experiencia en desarrollo backend , análisis de datos, y desarrollo WEB  desde muy chico vengo preparándome en diversos campos de la informática, en donde actualmente estoy mas centrado , ya te lo imaginaras... Desarrollo backend.
+
               <br />
-              <br /> <TiVendorApple /> My favorite languages are
+              <br /> <FaPython />  <SiJavascript /> Mis lenguajes de programacion favoritos son
               <i>
-                <b className="purple"> Javascript, Python, and Solidity </b>
-              </i>
-              <br />
-              <br /> <TiVendorApple /> My personal interest areas are&nbsp;
-              <i>
-                <b className="purple"> Cryptocurrency, Machine Learning, Space Exploration, and Education</b>
+                <b className="purple"> Javascript, Python, and Golang </b>
               </i>
               <br />
-              <br /> <TiVendorApple /> I’m currently learning SQL, InfluxDB, Sci-Kit Learn, and Web3 Frameworks. I’m looking to collaborate on open-source DeFi projects on the Celo and Ethereum blockchains
-              with <b className="purple">ReactJS</b> and
+              <br />
+            Tengo experiencia laboral desarrollando software con  las siguientes tecnologias
               <i>
-                <b className="purple">
-                  {" "}
-                  modern Web3 frameworks like
-                </b>
+                <b className="purple">Python,PostgreSQL,Linux,Flask,Django,Docker ,Javascript, Bash,Git, APIS </b>
               </i>
-              &nbsp; like
+              <FaPython />  <SiJavascript />  <SiFlask /> <SiPostgresql /> <SiDjango /> <SiGnubash /> <SiGit /> <FaDocker /> <FaLinux /> 
+              <br />
+              <br /> <FaLinux /> Mis áreas de interés personal son&nbsp;
               <i>
-                <b className="purple"> Truffle and OpenZeppelin</b>
+                <b className="purple"> Desarrollo Backend, Computacion En La Nube , Sistemas Distribuidos y Linux!!</b>
               </i>
+              <br />
+              <br /> <FaPython /> Actualmente estoy aprendiendo Golang, Y trabajo en una empresa multinacional como desarrollador Backend Python
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -66,14 +63,14 @@ function Home2() {
           </Button>
           </div>
           <Col md={12} className="home-about-social">
-            <h1>FOLLOW ME</h1>
+            <h1>SÍGUEME</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              No dudes en  <span className="purple">conectarte </span>conmigo
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/maxmohammadi"
+                  href="https://github.com/sebas1017"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -83,17 +80,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/mohammadimax"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/maxwellmohammadi/"
+                  href="https://www.linkedin.com/in/sebastian-henao-erazo-872070152/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -103,12 +90,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://medium.com/@maxmohammadi"
+                  href="https://www.youtube.com/channel/UCjHvG_N3-zrpb8EedpIoFpA"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <FaMedium />
+                  <FaYoutube />
                 </a>
               </li>
             </ul>

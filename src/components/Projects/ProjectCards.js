@@ -14,7 +14,12 @@ function ProjectCards(props) {
         </Card.Text>
         <Button variant="primary" href={props.link} target="_blank">
           <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "View Project"}
+          {props.isBlog ? "View Blog" : "Ver Proyecto"}
+        </Button>
+
+        <Button variant="primary" href={props.link_doc} target="_blank">
+          <BiLinkExternal /> &nbsp;
+          {props.isBlog ? "View Blog" : "Ver Documentacion"}
         </Button>
       </Card.Body>
     </Card>
