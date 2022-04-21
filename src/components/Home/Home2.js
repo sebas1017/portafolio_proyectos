@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn, FaYoutube, FaPython, FaDocker , FaLinux} from "react-icons/fa";
 import { TiCoffee } from "react-icons/ti";
-import { SiJavascript , SiFlask, SiPostgresql,SiDjango, SiGnubash,SiGit} from "react-icons/si";
+import { SiJavascript ,SiUdemy, SiFlask, SiPostgresql,SiDjango, SiGnubash,SiGit} from "react-icons/si";
 import Button from "react-bootstrap/Button";
 import "../../style.css";
 import PDF from "../../RESUME_CV.pdf";
@@ -22,7 +22,8 @@ function Home2() {
             Permíteme <span className="purple"> Presentarme </span>
             </h1>
             <p className="home-about-body">
-            <TiCoffee /> Desarrollador de software en Python, con experiencia en frameworks como Flask, Django, también tengo experiencia en desarrollo backend, análisis de datos, y desarrollo WEB  desde muy chico, vengo preparándome en diversos campos de la informática, en donde actualmente estoy más centrado, ya te lo imaginaras... Desarrollo backend.
+            <TiCoffee /> Desarrollador de software en Python, con experiencia en frameworks como Flask, Django, también tengo experiencia en desarrollo backend, análisis de datos, y desarrollo WEB  desde muy chico, vengo preparándome en diversos campos de la informática, en donde actualmente estoy más centrado, ya te lo imaginaras... Desarrollo backend :)<br></br>
+                         También me apasiona enseñar por lo que soy instructor en Udemy y también soy creador de contenido en YouTube donde tengo una bonita comunidad donde aprendemos cada día más sobre lo maravilloso de la industria de la tecnología y el desarrollo de software.
 
               <br />
               <br /> <FaPython />  <SiJavascript /> Mis lenguajes de programación favoritos son
@@ -61,7 +62,20 @@ function Home2() {
           <Button variant="primary" href={PDF} target="_blank" size="lg">
           Descargar Currículum
           </Button>
+          <br></br>
+          <br></br>
+          <Button variant="primary" href="https://www.youtube.com/channel/UCjHvG_N3-zrpb8EedpIoFpA" target="_blank" size="lg">
+          Visitar Mi Canal De YouTube
+          </Button>
+          <br></br>
+          <br></br>
+          <Button variant="primary" href="https://www.udemy.com/user/sebastian-henao-erazo/" target="_blank" size="lg">
+          Visitar Mis Curso En Udemy
+          </Button>
           </div>
+
+
+
           <Col md={12} className="home-about-social">
             <h1>SÍGUEME</h1>
             <p>
@@ -96,6 +110,17 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <FaYoutube />
+                </a>
+              </li>
+
+              <li className="social-icons">
+                <a
+                  href="https://www.udemy.com/user/sebastian-henao-erazo/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiUdemy />
                 </a>
               </li>
             </ul>

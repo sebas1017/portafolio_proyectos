@@ -3,7 +3,8 @@ import Card from "react-bootstrap/Card";
 
 
 import { GiSoccerBall ,GiCommercialAirplane} from "react-icons/gi";
-
+import { GrMail} from "react-icons/gr";
+import { MdPhone} from "react-icons/md";
 import { FaLaptopCode} from "react-icons/fa";
 
 function AboutCard() {
@@ -30,6 +31,19 @@ function AboutCard() {
               <FaLaptopCode /> Programar :)
             </li>
           </ul>
+          <p style={{ textAlign: "justify" }}>
+            Datos De Contacto
+          </p>
+          <ul>
+          
+            <li className="about-activity">
+              <MdPhone /> Teléfono - 3016425869
+            </li>
+            <li className="about-activity">
+              <GrMail /> Email - henaoerazosebastian995@gmail.com
+            </li>
+          </ul>
+
 
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             "Aprendizaje autodidacta!"{" "}
