@@ -19,19 +19,19 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              Permiteme <span className="purple"> Presentarme </span>
+            Permíteme <span className="purple"> Presentarme </span>
             </h1>
             <p className="home-about-body">
-            <TiCoffee /> Desarrollador de software en Python, con experiencia en frameworks como Flask, Django , también tengo experiencia en desarrollo backend , análisis de datos, y desarrollo WEB  desde muy chico vengo preparándome en diversos campos de la informática, en donde actualmente estoy mas centrado , ya te lo imaginaras... Desarrollo backend.
+            <TiCoffee /> Desarrollador de software en Python, con experiencia en frameworks como Flask, Django, también tengo experiencia en desarrollo backend, análisis de datos, y desarrollo WEB  desde muy chico, vengo preparándome en diversos campos de la informática, en donde actualmente estoy más centrado, ya te lo imaginaras... Desarrollo backend.
 
               <br />
-              <br /> <FaPython />  <SiJavascript /> Mis lenguajes de programacion favoritos son
+              <br /> <FaPython />  <SiJavascript /> Mis lenguajes de programación favoritos son
               <i>
                 <b className="purple"> Javascript, Python, and Golang </b>
               </i>
               <br />
               <br />
-            Tengo experiencia laboral desarrollando software con  las siguientes tecnologias
+              Tengo experiencia laboral desarrollando software con  las siguientes tecnologías
               <i>
                 <b className="purple">Python,PostgreSQL,Linux,Flask,Django,Docker ,Javascript, Bash,Git, APIS </b>
               </i>
@@ -39,10 +39,10 @@ function Home2() {
               <br />
               <br /> <FaLinux /> Mis áreas de interés personal son&nbsp;
               <i>
-                <b className="purple"> Desarrollo Backend, Computacion En La Nube , Sistemas Distribuidos y Linux!!</b>
+                <b className="purple">Desarrollo Backend, Computación En La Nube, Sistemas Distribuidos y Linux!!</b>
               </i>
               <br />
-              <br /> <FaPython /> Actualmente estoy aprendiendo Golang, Y trabajo en una empresa multinacional como desarrollador Backend Python
+              <br /> <FaPython />  Actualmente, estoy aprendiendo Golang, Y trabajo en una empresa multinacional como desarrollador Backend Python
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -59,7 +59,7 @@ function Home2() {
               paddingBottom: "50px",
             }}>
           <Button variant="primary" href={PDF} target="_blank" size="lg">
-            Resume
+          Descargar Currículum
           </Button>
           </div>
           <Col md={12} className="home-about-social">
