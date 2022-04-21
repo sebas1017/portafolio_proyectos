@@ -15,7 +15,7 @@ function Github() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Historial de <strong className="purple">codigo</strong>
+        Historial de <strong className="purple">código</strong>
       </h1>
       <GitHubCalendar
         username="sebas1017"

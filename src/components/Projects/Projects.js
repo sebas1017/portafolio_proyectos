@@ -23,7 +23,14 @@ function Projects() {
               imgPath={rest_countries_api}
               isBlog={false}
               title="REST COUNTRIES API"
-              description="Prueba tecnica de desarrollador backend python , donde construi una API sin hacer uso de ningun framework ,se solicito consumir una API externa de paises y posteriormente  procesar la informacion , luego guardar dicha informacion en una base de datos  SQLITE y retornar el JSON de respuesta al cliente en el endpoint raiz del URL , para mas detalles de los requerimientos mediante los cuales desarrolle esta API ver la siguiente imagen"
+              description="Prueba técnica de desarrollador backend Python
+              se requería construir una API sin hacer uso de ningún framework y 
+              desde esta misma consumir una API externa que proporciona información de 
+              países y posteriormente  procesar dicha información 
+              luego guardar los resultados  en una base de datos  SQLITE y retornar 
+              el JSON de respuesta al cliente en el recurso/endpoint raíz del URL
+              si deseas conocer más detalles de los requerimientos mediante los cuales 
+              desarrolle esta API desplázate y da click en Ver Documentación"
               link="https://vast-brook-33817.herokuapp.com/"
               link_doc="https://github.com/sebas1017/API-REST-COUNTRIES"
             />
@@ -37,7 +44,7 @@ function Projects() {
               imgPath={fast_api_crud}
               isBlog={false}
               title="USERS API-REST"
-              description="API basada en el marco REST , realiza operaciones CRUD para el registro de usuarios , realizada con FastAPI y Python conectandose a una base de datos PostgreSQL almacenada en heroku"
+              description="API-REST que realiza operaciones CRUD para el registro de usuarios está construida con FastAPI y Python, a su vez también se conecta a una base de datos PostgreSQL desplegada en un servidor Heroku si deseas ver la documentación desplázate y da click en Ver Documentación :)"
               link="https://fastapi-users-rest.herokuapp.com/docs"
               link_doc="https://github.com/sebas1017/FAST-API-CRUD"
             />

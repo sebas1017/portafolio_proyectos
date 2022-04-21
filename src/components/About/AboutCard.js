@@ -12,9 +12,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-          Hola a todos, soy  <span className="purple"> Sebastian Henao Erazo </span>
-          de <span className="purple"> Colombia , y vivo en la ciudad de Cali. </span>
-            <br />Soy estudiante de último año de ingenieria de sistemas en la Universidad Libre  Seccional Cali y desarrollador backend Python.
+          Hola a todos, soy  <span className="purple">Sebastián Henao Erazo</span>
+          de <span className="purple">Colombia, y vivo en la ciudad de Cali.</span>
+            <br />Soy estudiante de último año de ingeniería de sistemas en la Universidad Libre Seccional Cali y desarrollador backend Python.
             <br />
             <br />
             Pasatiempos
@@ -34,7 +34,7 @@ function AboutCard() {
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             "Aprendizaje autodidacta!"{" "}
           </p>
-          <footer className="blockquote-footer">Sebastian Henao Erazo</footer>
+          <footer className="blockquote-footer">Sebastián Henao Erazo</footer>
         </blockquote>
       </Card.Body>
     </Card>
