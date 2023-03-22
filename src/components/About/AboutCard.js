@@ -13,9 +13,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-          Hola a todos, soy  <span className="purple">Sebastián Henao Erazo</span>
-          de <span className="purple">Colombia, y vivo en la ciudad de Cali.</span>
-            <br />Soy estudiante de último año de ingeniería de sistemas en la Universidad Libre Seccional Cali y desarrollador backend Python.
+          Hola a todos, soy  <span className="purple">Sebastián Henao Erazo de </span>
+           <span className="purple">Colombia, y vivo en la ciudad de Cali.</span>
+            <br />Soy  ingeniero  de sistemas y desarrollador backend Python.
             <br />
             <br />
             Pasatiempos

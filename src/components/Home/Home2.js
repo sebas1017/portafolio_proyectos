@@ -43,7 +43,7 @@ function Home2() {
                 <b className="purple">Desarrollo Backend, Computación En La Nube, Sistemas Distribuidos y Linux!!</b>
               </i>
               <br />
-              <br /> <FaPython />  Actualmente, estoy aprendiendo Golang, Y trabajo en una empresa multinacional como desarrollador Backend Python
+              <br /> <FaPython />  Actualmente, estoy aprendiendo Golang, Y trabajo en una startup  como desarrollador Backend Python
             </p>
           </Col>
           <Col md={4} className="myAvtar">
