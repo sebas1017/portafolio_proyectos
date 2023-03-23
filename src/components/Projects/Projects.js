@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import rest_countries_api from "./../../Assets/rest_countries_api.jpg"
 import fast_api_crud from "./../../Assets/fast_api_crud.png"
 import pokemon_app from "./../../Assets/pokemon_app.png"
-
+import pokeapi from "./../../Assets/pokeapi.png"
 
 function Projects() {
   return (
@@ -57,8 +57,21 @@ function Projects() {
             <ProjectCard
               imgPath={pokemon_app}
               isBlog={false}
-              title="POKEMON WEB APP"
-              description="POKEMON WEB APP utilizando el poder de FastAPI y el asincronismo de Asyncio podemos consultar distintas caracteristicas de pokemones de forma simultanea en el backend a la API de poke-api , para luego formatear y visualizar estos datos utilizando React en el frontend :)"
+              title="POKEMON API"
+              description="POKEMON WEB APP formatear y visualizar los datos resultados de poke-api restful estos datos utilizando React en el frontend :)"
+              link="https://frontend-pokemon-app.onrender.com/"
+              link_doc="https://github.com/sebas1017/pokemon-app-challenge"
+            />
+          </Col>
+        </Row>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pokeapi}
+              isBlog={false}
+              title="POKEMON API RESTFUL"
+              description="POKEMON API utilizando el poder de FastAPI y el asincronismo de Asyncio podemos consultar distintas caracteristicas de pokemones de forma simultanea en el backend a la API de poke-api"
               link="https://backend-pokemon-api.onrender.com/docs"
               link_doc="https://github.com/sebas1017/pokemon-app-challenge"
             />

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3aa0ed9e.chunk.css",
-    "main.js": "/static/js/main.a7a87b86.chunk.js",
-    "main.js.map": "/static/js/main.a7a87b86.chunk.js.map",
+    "main.js": "/static/js/main.bb49ae7c.chunk.js",
+    "main.js.map": "/static/js/main.bb49ae7c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.823c44e1.js",
     "runtime-main.js.map": "/static/js/runtime-main.823c44e1.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
@@ -21,6 +21,7 @@
     "static/media/style.css": "/static/media/pre.1ae18671.svg",
     "static/media/home-main.abfd694b.svg": "/static/media/home-main.abfd694b.svg",
     "static/media/home2.de7f5b9f.svg": "/static/media/home2.de7f5b9f.svg",
+    "static/media/pokeapi.5537e85e.png": "/static/media/pokeapi.5537e85e.png",
     "static/media/pokemon_app.38334e0c.png": "/static/media/pokemon_app.38334e0c.png",
     "static/media/rest_countries_api.74d95bce.jpg": "/static/media/rest_countries_api.74d95bce.jpg"
   },
@@ -29,6 +30,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.6e9e3bb3.chunk.js",
     "static/css/main.3aa0ed9e.chunk.css",
-    "static/js/main.a7a87b86.chunk.js"
+    "static/js/main.bb49ae7c.chunk.js"
   ]
 }
