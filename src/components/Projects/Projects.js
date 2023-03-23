@@ -61,7 +61,7 @@ function Projects() {
               isBlog={false}
               title="USERS API-REST"
               description="API-REST que realiza operaciones CRUD para el registro de usuarios está construida con FastAPI y Python, a su vez también se conecta a una base de datos PostgreSQL desplegada en un servidor Heroku si deseas ver la documentación desplázate y da click en Ver Documentación :)"
-              link="https://fastapi-users-rest.herokuapp.com/docs"
+              link="https://users-crud-api-5mdt.onrender.com/docs"
               link_doc="https://github.com/sebas1017/FAST-API-CRUD"
             />
           </Col>
