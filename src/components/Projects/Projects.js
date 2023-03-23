@@ -57,7 +57,7 @@ function Projects() {
             <ProjectCard
               imgPath={pokemon_app}
               isBlog={false}
-              title="POKEMON API"
+              title="POKEMON WEB APP REACT"
               description="POKEMON WEB APP formatear y visualizar los datos resultados de poke-api restful estos datos utilizando React en el frontend :)"
               link="https://frontend-pokemon-app.onrender.com/"
               link_doc="https://github.com/sebas1017/pokemon-app-challenge"
