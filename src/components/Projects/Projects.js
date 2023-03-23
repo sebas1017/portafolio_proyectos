@@ -6,7 +6,7 @@ import rest_countries_api from "./../../Assets/rest_countries_api.jpg"
 import fast_api_crud from "./../../Assets/fast_api_crud.png"
 import pokemon_app from "./../../Assets/pokemon_app.png"
 import pokeapi from "./../../Assets/pokeapi.png"
-
+import fastapi_countries_api from "./../../Assets/fastapi_countries_api.webp"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -32,11 +32,26 @@ function Projects() {
               el JSON de respuesta al cliente en el recurso/endpoint raíz del URL
               si deseas conocer más detalles de los requerimientos mediante los cuales 
               desarrolle esta API desplázate y da click en Ver Documentación"
-              link="https://vast-brook-33817.herokuapp.com/"
-              link_doc="https://github.com/sebas1017/API-REST-COUNTRIES"
+              link="https://rest-countries-api-g191.onrender.com"
+              link_doc="https://github.com/sebas1017/challenge_api_countries_rest"
             />
           </Col>
         </Row>
+
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fastapi_countries_api}
+              isBlog={false}
+              title="REST COUNTRIES FAST-API"
+              description="Api de countries igual a REST-COUNTRIES API pero esta vez utilizando el framework FastAPI asyncio para mejorar el rendimiento y hacer multiples peticiones de forma simultaneas y asincronas y conectandose a una base de datos PostgreSQL en la nube de render.com"
+              link="https://rest-countries-api-fastapi.onrender.com"
+              link_doc="https://github.com/sebas1017/fastapi_challenge_countries"
+            />
+          </Col>
+        </Row>
+
 
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
