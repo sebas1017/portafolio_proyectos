@@ -46,7 +46,7 @@ function Projects() {
               isBlog={false}
               title="REST COUNTRIES FAST-API"
               description="Api de countries igual a REST-COUNTRIES API pero esta vez utilizando el framework FastAPI asyncio para mejorar el rendimiento y hacer multiples peticiones de forma simultaneas y asincronas y conectandose a una base de datos PostgreSQL en la nube de render.com"
-              link="https://rest-countries-api-g191.onrender.com/"
+              link="https://fast-api-service.onrender.com"
               link_doc="https://github.com/sebas1017/fastapi_challenge_countries"
             />
           </Col>
@@ -61,7 +61,7 @@ function Projects() {
               isBlog={false}
               title="USERS API-REST"
               description="API-REST que realiza operaciones CRUD para el registro de usuarios está construida con FastAPI y Python, a su vez también se conecta a una base de datos PostgreSQL desplegada en un servidor Heroku si deseas ver la documentación desplázate y da click en Ver Documentación :)"
-              link="https://rest-countries-api-g191.onrender.com//docs"
+              link="https://fast-api-service.onrender.com/docs"
               link_doc="https://github.com/sebas1017/FAST-API-CRUD"
             />
           </Col>
