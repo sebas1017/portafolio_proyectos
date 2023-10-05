@@ -46,7 +46,7 @@ function Projects() {
               isBlog={false}
               title="REST COUNTRIES FAST-API"
               description="Api de countries igual a REST-COUNTRIES API pero esta vez utilizando el framework FastAPI asyncio para mejorar el rendimiento y hacer multiples peticiones de forma simultaneas y asincronas y conectandose a una base de datos PostgreSQL en la nube de render.com"
-              link="https://rest-countries-api-fastapi.onrender.com/docs"
+              link="https://rest-countries-api-g191.onrender.com/"
               link_doc="https://github.com/sebas1017/fastapi_challenge_countries"
             />
           </Col>
