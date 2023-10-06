@@ -32,7 +32,7 @@ function Projects() {
               el JSON de respuesta al cliente en el recurso/endpoint raíz del URL
               si deseas conocer más detalles de los requerimientos mediante los cuales 
               desarrolle esta API desplázate y da click en Ver Documentación"
-              link="https://rest-countries-api-g191.onrender.com/"
+              link="https://rest-countries-api-fastapi.onrender.com/"
               link_doc="https://github.com/sebas1017/challenge_api_countries_rest"
             />
           </Col>
