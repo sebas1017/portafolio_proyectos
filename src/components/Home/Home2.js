@@ -5,9 +5,8 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaYoutube, FaPython, FaDocker , FaLinux} from "react-icons/fa";
-import { TiCoffee } from "react-icons/ti";
-import { SiJavascript ,SiUdemy, SiFlask, SiPostgresql,SiDjango, SiGnubash,SiGit} from "react-icons/si";
+import { FaLinkedinIn, FaYoutube, FaPython, FaDocker, FaLinux, FaAws } from "react-icons/fa";
+import { SiJavascript, SiUdemy, SiFastapi, SiPostgresql, SiDjango, SiGnubash, SiGit, SiKubernetes } from "react-icons/si";
 import Button from "react-bootstrap/Button";
 import "../../style.css";
 import PDF from "../../RESUME_CV.pdf";
@@ -22,28 +21,27 @@ function Home2() {
             Permíteme <span className="purple"> Presentarme </span>
             </h1>
             <p className="home-about-body">
-            <TiCoffee /> Desarrollador de software en Python, con experiencia en frameworks como Flask, Django, también tengo experiencia en desarrollo backend, análisis de datos, y desarrollo WEB  desde muy chico, vengo preparándome en diversos campos de la informática, en donde actualmente estoy más centrado, ya te lo imaginaras... Desarrollo backend :)<br></br>
-                         También me apasiona enseñar por lo que soy instructor en Udemy y también soy creador de contenido en YouTube donde tengo una bonita comunidad donde aprendemos cada día más sobre lo maravilloso de la industria de la tecnología y el desarrollo de software.
-
+              Senior Backend Developer con <span className="purple">+4 años de experiencia</span> profesional
+              construyendo sistemas escalables y arquitecturas distribuidas.
+              <br /><br />
+              Actualmente trabajo en <span className="purple">Simetrik</span> donde desarrollo servicios backend
+              con FastAPI, implemento LLMs, creo pipelines de CI/CD con AWS, y orquesto infraestructuras
+              con EKS y Docker.
+              <br /><br />
+              <FaPython /> <SiJavascript /> Mis lenguajes principales son
+              <b className="purple"> Python y JavaScript</b>
+              <br /><br />
+              Mi stack incluye:
+              <b className="purple"> FastAPI, Django, PostgreSQL, Cassandra, Redis, Docker,
+              Kubernetes, AWS (Lambda, EKS, SQS, SNS), Terraform, Airflow</b>
               <br />
-              <br /> <FaPython />  <SiJavascript /> Mis lenguajes de programación favoritos son
-              <i>
-                <b className="purple"> Javascript, Python, and Golang </b>
-              </i>
-              <br />
-              <br />
-              Tengo experiencia laboral desarrollando software con  las siguientes tecnologías
-              <i>
-                <b className="purple">Python,PostgreSQL,Linux,Flask,Django,Docker ,Javascript, Bash,Git, APIS </b>
-              </i>
-              <FaPython />  <SiJavascript />  <SiFlask /> <SiPostgresql /> <SiDjango /> <SiGnubash /> <SiGit /> <FaDocker /> <FaLinux /> 
-              <br />
-              <br /> <FaLinux /> Mis áreas de interés personal son&nbsp;
-              <i>
-                <b className="purple">Desarrollo Backend, Computación En La Nube, Sistemas Distribuidos y Linux!!</b>
-              </i>
-              <br />
-              <br /> <FaPython />  Actualmente, estoy aprendiendo Golang, Y trabajo en una startup  como desarrollador Backend Python
+              <SiFastapi /> <SiPostgresql /> <SiDjango /> <SiGnubash /> <SiGit /> <FaDocker /> <FaLinux /> <FaAws /> <SiKubernetes />
+              <br /><br />
+              <FaLinux /> Mis áreas de interés son&nbsp;
+              <b className="purple">Backend Engineering, Cloud Computing, Sistemas Distribuidos, IA/LLMs y Linux</b>
+              <br /><br />
+              También soy instructor en <span className="purple">Udemy</span> y creador de contenido
+              en <span className="purple">YouTube</span> donde comparto conocimiento sobre desarrollo de software.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -70,11 +68,9 @@ function Home2() {
           <br></br>
           <br></br>
           <Button variant="primary" href="https://www.udemy.com/user/sebastian-henao-erazo/" target="_blank" size="lg">
-          Visitar Mis Curso En Udemy
+          Visitar Mis Cursos En Udemy
           </Button>
           </div>
-
-
 
           <Col md={12} className="home-about-social">
             <h1>SÍGUEME</h1>

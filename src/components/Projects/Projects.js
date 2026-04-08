@@ -2,11 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import rest_countries_api from "./../../Assets/rest_countries_api.jpg"
-import fast_api_crud from "./../../Assets/fast_api_crud.png"
-import pokemon_app from "./../../Assets/pokemon_app.png"
-import pokeapi from "./../../Assets/pokeapi.png"
-import fastapi_countries_api from "./../../Assets/fastapi_countries_api.webp"
+import viral_clip_extractor from "./../../Assets/viral_clip_extractor.png"
+import ai_medical_voice_agent from "./../../Assets/ai_medical_voice_agent.png"
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -18,81 +16,30 @@ function Projects() {
         <p style={{ color: "white" }}>
         Aquí hay algunos proyectos en los que he trabajado recientemente.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={rest_countries_api}
-              isBlog={false}
-              title="REST COUNTRIES API"
-              description="Prueba técnica de desarrollador backend Python
-              se requería construir una API sin hacer uso de ningún framework y 
-              desde esta misma consumir una API externa que proporciona información de 
-              países y posteriormente  procesar dicha información 
-              luego guardar los resultados  en una base de datos  SQLITE y retornar 
-              el JSON de respuesta al cliente en el recurso/endpoint raíz del URL
-              si deseas conocer más detalles de los requerimientos mediante los cuales 
-              desarrolle esta API desplázate y da click en Ver Documentación"
-              link="https://rest-countries-api-g191.onrender.com"
-              link_doc="https://github.com/sebas1017/challenge_api_countries_rest"
-            />
-          </Col>
-        </Row>
-
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={fastapi_countries_api}
-              isBlog={false}
-              title="REST COUNTRIES FAST-API"
-              description="Api de countries igual a REST-COUNTRIES API pero esta vez utilizando el framework FastAPI asyncio para mejorar el rendimiento y hacer multiples peticiones de forma simultaneas y asincronas y conectandose a una base de datos PostgreSQL en la nube de render.com"
-              link="https://rest-countries-api-fastapi.onrender.com/"
-              link_doc="https://github.com/sebas1017/fastapi_challenge_countries"
-            />
-          </Col>
-        </Row>
-
-
-
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={fast_api_crud}
-              isBlog={false}
-              title="USERS API-REST"
-              description="API-REST que realiza operaciones CRUD para el registro de usuarios está construida con FastAPI y Python, a su vez también se conecta a una base de datos PostgreSQL desplegada en un servidor Heroku si deseas ver la documentación desplázate y da click en Ver Documentación :)"
-              link="https://users-crud-api-5mdt.onrender.com/docs"
-              link_doc="https://github.com/sebas1017/FAST-API-CRUD"
+              imgPath={viral_clip_extractor}
+              title="VIRAL CLIP EXTRACTOR"
+              description="Sistema de microservicios con Docker Compose que extrae clips virales de videos largos automáticamente. Pipeline completo: transcripción con Whisper large-v3 (CUDA), análisis de momentos virales con Gemini 2.0 Flash (vía OpenRouter), corte con FFmpeg, y post-procesado que incluye eliminación de silencios, reencuadre 9:16 con detección facial (OpenCV DNN), y quemado de subtítulos ASS. Dashboard web con FastAPI, progreso en tiempo real vía SSE, autenticación, y descarga ZIP. 7 microservicios orquestados con Docker Compose y acceso público vía ngrok."
+              landingUrl="https://saas-viral-clip-product.onrender.com/"
+              link_doc="https://github.com/sebas1017/viral-clip-extractor"
             />
           </Col>
         </Row>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={pokemon_app}
-              isBlog={false}
-              title="POKEMON WEB APP REACT"
-              description="POKEMON WEB APP formatear y visualizar los datos resultados de poke-api restful estos datos utilizando React en el frontend :)"
-              link="https://frontend-pokemon-app.onrender.com/"
-              link_doc="https://github.com/sebas1017/pokemon-app-challenge"
+              imgPath={ai_medical_voice_agent}
+              title="AI MEDICAL VOICE AGENT"
+              description="Agente de voz con IA para registro de pacientes en clínicas médicas. El paciente llama desde el navegador y conversa con 'Alex', un asistente que recolecta datos demográficos (nombre, DOB, teléfono, dirección, seguro médico) mediante conversación natural. Usa Vapi.ai como plataforma de voz, Deepgram Nova-2 para speech-to-text, GPT-4o-mini (vía OpenRouter) como LLM para decidir el flujo conversacional y ejecutar tool calls, 11Labs (voz Rachel) para text-to-speech, FastAPI con SQLAlchemy 2.0 async y SQLite para persistencia. Incluye verificación de duplicados, validación Pydantic, y deploy con Docker + ngrok."
+              landingUrl={null}
+              link_doc="https://github.com/sebas1017/ai_medical_voice_agent"
             />
           </Col>
         </Row>
-
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pokeapi}
-              isBlog={false}
-              title="POKEMON API RESTFUL"
-              description="POKEMON API utilizando el poder de FastAPI y el asincronismo de Asyncio podemos consultar distintas caracteristicas de pokemones de forma simultanea en el backend a la API de poke-api"
-              link="https://backend-pokemon-api.onrender.com/docs"
-              link_doc="https://github.com/sebas1017/pokemon-app-challenge"
-            />
-          </Col>
-        </Row>
-
 
       </Container>
     </Container>

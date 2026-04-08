@@ -7,6 +7,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Comunitystack from "./ComunityStack";
+import Experience from "./Experience";
 
 function About() {
   return (
@@ -35,6 +36,9 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+
+        <Experience />
+
         <h1 className="project-heading">
           Stack <strong className="purple">Tecnológico </strong>
         </h1>
@@ -42,13 +46,12 @@ function About() {
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Herramientas</strong> Utilizadas
+          <strong className="purple">Herramientas</strong> y DevOps
         </h1>
         <Toolstack />
 
-
         <h1 className="project-heading">
-          <strong className="purple">Comunidad</strong>
+          <strong className="purple">Comunidad</strong> e IA
         </h1>
         <Comunitystack />
         <Github />

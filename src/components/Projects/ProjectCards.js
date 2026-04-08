@@ -1,7 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { BiLinkExternal } from "react-icons/bi";
+import { BiLinkExternal, BiGlobe } from "react-icons/bi";
+import { BsImage } from "react-icons/bs";
 
 function ProjectCards(props) {
   return (
@@ -12,14 +13,26 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.link} target="_blank">
-          <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "Ver Proyecto"}
+        <Button variant="primary" href={props.imgPath} target="_blank">
+          <BsImage /> &nbsp;
+          Diagrama Arquitectura
         </Button>
+
+        {props.landingUrl ? (
+          <Button variant="primary" href={props.landingUrl} target="_blank">
+            <BiGlobe /> &nbsp;
+            Landing Page
+          </Button>
+        ) : (
+          <Button variant="primary" disabled style={{ opacity: 0.4, cursor: "not-allowed" }}>
+            <BiGlobe /> &nbsp;
+            Landing Page
+          </Button>
+        )}
 
         <Button variant="primary" href={props.link_doc} target="_blank">
           <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "Ver Documentación"}
+          GitHub
         </Button>
       </Card.Body>
     </Card>
